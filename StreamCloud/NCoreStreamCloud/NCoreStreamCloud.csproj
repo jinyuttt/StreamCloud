@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MessagePack" Version="1.7.3.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HttpServerLib\HttpServerLib.csproj" />
+    <ProjectReference Include="..\NetHighSocket\NetHighSocket.csproj" />
+    <ProjectReference Include="..\SrvNetSocket\SrvNetSocket.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="QueryDefault\index.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="QueryDefault\json.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

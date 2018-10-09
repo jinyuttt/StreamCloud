@@ -1,0 +1,9 @@
+E:\Study\vs\Rest\StreamCloud\NetSocket\bin\Debug\netstandard2.0\NetSocket.deps.json
+E:\Study\vs\Rest\StreamCloud\NetSocket\bin\Debug\netstandard2.0\NetSocket.dll
+E:\Study\vs\Rest\StreamCloud\NetSocket\bin\Debug\netstandard2.0\NetSocket.pdb
+E:\Study\vs\Rest\StreamCloud\NetSocket\obj\Debug\netstandard2.0\NetSocket.csprojAssemblyReference.cache
+E:\Study\vs\Rest\StreamCloud\NetSocket\obj\Debug\netstandard2.0\NetSocket.csproj.CoreCompileInputs.cache
+E:\Study\vs\Rest\StreamCloud\NetSocket\obj\Debug\netstandard2.0\NetSocket.AssemblyInfoInputs.cache
+E:\Study\vs\Rest\StreamCloud\NetSocket\obj\Debug\netstandard2.0\NetSocket.AssemblyInfo.cs
+E:\Study\vs\Rest\StreamCloud\NetSocket\obj\Debug\netstandard2.0\NetSocket.dll
+E:\Study\vs\Rest\StreamCloud\NetSocket\obj\Debug\netstandard2.0\NetSocket.pdb

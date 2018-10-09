@@ -1,0 +1,24 @@
+{HTTP/1.0 200 OK
+           Content-Type: text/html
+            Connection: keep-alive
+            Content-Encoding: utf-8
+{
+    "status": 200, 
+    "message": "OK", 
+    "data": {
+        "dateTime": "2014年3月23日", 
+        "city": "北京", 
+        "temp": "17℃", 
+        "minTemp": "7℃", 
+        "maxTemp": "20℃", 
+        "weather": "晴转阴", 
+        "windDirection": "南风", 
+        "windForce": "2级", 
+        "humidity": "26%", 
+        "img_1": "0", 
+        "img_2": "2", 
+        "refreshTime": "13:18"
+    }
+}
+
+}

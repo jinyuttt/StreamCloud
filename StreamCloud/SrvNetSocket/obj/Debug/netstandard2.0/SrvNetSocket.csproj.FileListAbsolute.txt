@@ -1,0 +1,8 @@
+E:\Study\vs\Rest\StreamCloud\SrvNetSocket\bin\Debug\netstandard2.0\SrvNetSocket.deps.json
+E:\Study\vs\Rest\StreamCloud\SrvNetSocket\bin\Debug\netstandard2.0\SrvNetSocket.dll
+E:\Study\vs\Rest\StreamCloud\SrvNetSocket\bin\Debug\netstandard2.0\SrvNetSocket.pdb
+E:\Study\vs\Rest\StreamCloud\SrvNetSocket\obj\Debug\netstandard2.0\SrvNetSocket.csproj.CoreCompileInputs.cache
+E:\Study\vs\Rest\StreamCloud\SrvNetSocket\obj\Debug\netstandard2.0\SrvNetSocket.AssemblyInfoInputs.cache
+E:\Study\vs\Rest\StreamCloud\SrvNetSocket\obj\Debug\netstandard2.0\SrvNetSocket.AssemblyInfo.cs
+E:\Study\vs\Rest\StreamCloud\SrvNetSocket\obj\Debug\netstandard2.0\SrvNetSocket.dll
+E:\Study\vs\Rest\StreamCloud\SrvNetSocket\obj\Debug\netstandard2.0\SrvNetSocket.pdb

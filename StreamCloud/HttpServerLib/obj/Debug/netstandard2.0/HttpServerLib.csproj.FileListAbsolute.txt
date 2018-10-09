@@ -1,0 +1,8 @@
+E:\Study\vs\Rest\StreamCloud\HttpServerLib\bin\Debug\netstandard2.0\HttpServerLib.deps.json
+E:\Study\vs\Rest\StreamCloud\HttpServerLib\bin\Debug\netstandard2.0\HttpServerLib.dll
+E:\Study\vs\Rest\StreamCloud\HttpServerLib\bin\Debug\netstandard2.0\HttpServerLib.pdb
+E:\Study\vs\Rest\StreamCloud\HttpServerLib\obj\Debug\netstandard2.0\HttpServerLib.csproj.CoreCompileInputs.cache
+E:\Study\vs\Rest\StreamCloud\HttpServerLib\obj\Debug\netstandard2.0\HttpServerLib.AssemblyInfoInputs.cache
+E:\Study\vs\Rest\StreamCloud\HttpServerLib\obj\Debug\netstandard2.0\HttpServerLib.AssemblyInfo.cs
+E:\Study\vs\Rest\StreamCloud\HttpServerLib\obj\Debug\netstandard2.0\HttpServerLib.dll
+E:\Study\vs\Rest\StreamCloud\HttpServerLib\obj\Debug\netstandard2.0\HttpServerLib.pdb

@@ -1,0 +1,9 @@
+E:\Study\vs\Rest\StreamCloud\StreamCloud\bin\Debug\netstandard2.0\StreamCloud.deps.json
+E:\Study\vs\Rest\StreamCloud\StreamCloud\bin\Debug\netstandard2.0\StreamCloud.dll
+E:\Study\vs\Rest\StreamCloud\StreamCloud\bin\Debug\netstandard2.0\StreamCloud.pdb
+E:\Study\vs\Rest\StreamCloud\StreamCloud\obj\Debug\netstandard2.0\StreamCloud.csproj.CoreCompileInputs.cache
+E:\Study\vs\Rest\StreamCloud\StreamCloud\obj\Debug\netstandard2.0\StreamCloud.AssemblyInfoInputs.cache
+E:\Study\vs\Rest\StreamCloud\StreamCloud\obj\Debug\netstandard2.0\StreamCloud.AssemblyInfo.cs
+E:\Study\vs\Rest\StreamCloud\StreamCloud\obj\Debug\netstandard2.0\StreamCloud.dll
+E:\Study\vs\Rest\StreamCloud\StreamCloud\obj\Debug\netstandard2.0\StreamCloud.pdb
+E:\Study\vs\Rest\StreamCloud\StreamCloud\obj\Debug\netstandard2.0\StreamCloud.csprojAssemblyReference.cache

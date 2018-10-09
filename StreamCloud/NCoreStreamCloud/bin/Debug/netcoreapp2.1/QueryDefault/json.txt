@@ -1,0 +1,18 @@
+﻿{
+    "status": 200, 
+    "message": "OK", 
+    "data": {
+        "Message": "没有找到你需要的数据", 
+        "city": "北京", 
+        "temp": "17℃", 
+        "minTemp": "7℃", 
+        "maxTemp": "20℃", 
+        "weather": "晴转阴", 
+        "windDirection": "南风", 
+        "windForce": "2级", 
+        "humidity": "26%", 
+        "img_1": "0", 
+        "img_2": "2", 
+        "refreshTime": "13:18"
+    }
+}

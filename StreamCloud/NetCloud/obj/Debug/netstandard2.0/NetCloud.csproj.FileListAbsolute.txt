@@ -1,0 +1,6 @@
+E:\Study\vs\Rest\StreamCloud\NetCloud\bin\Debug\netstandard2.0\NetCloud.deps.json
+E:\Study\vs\Rest\StreamCloud\NetCloud\bin\Debug\netstandard2.0\NetCloud.dll
+E:\Study\vs\Rest\StreamCloud\NetCloud\obj\Debug\netstandard2.0\NetCloud.csproj.CoreCompileInputs.cache
+E:\Study\vs\Rest\StreamCloud\NetCloud\obj\Debug\netstandard2.0\NetCloud.AssemblyInfoInputs.cache
+E:\Study\vs\Rest\StreamCloud\NetCloud\obj\Debug\netstandard2.0\NetCloud.AssemblyInfo.cs
+E:\Study\vs\Rest\StreamCloud\NetCloud\obj\Debug\netstandard2.0\NetCloud.csprojAssemblyReference.cache

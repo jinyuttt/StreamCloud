@@ -1,0 +1,14 @@
+E:\Study\vs\Rest\StreamCloud\SocketTest\obj\Debug\netcoreapp2.1\SocketTest.csprojAssemblyReference.cache
+E:\Study\vs\Rest\StreamCloud\SocketTest\obj\Debug\netcoreapp2.1\SocketTest.csproj.CoreCompileInputs.cache
+E:\Study\vs\Rest\StreamCloud\SocketTest\obj\Debug\netcoreapp2.1\SocketTest.AssemblyInfoInputs.cache
+E:\Study\vs\Rest\StreamCloud\SocketTest\obj\Debug\netcoreapp2.1\SocketTest.AssemblyInfo.cs
+E:\Study\vs\Rest\StreamCloud\SocketTest\bin\Debug\netcoreapp2.1\SocketTest.deps.json
+E:\Study\vs\Rest\StreamCloud\SocketTest\bin\Debug\netcoreapp2.1\SocketTest.runtimeconfig.json
+E:\Study\vs\Rest\StreamCloud\SocketTest\bin\Debug\netcoreapp2.1\SocketTest.runtimeconfig.dev.json
+E:\Study\vs\Rest\StreamCloud\SocketTest\bin\Debug\netcoreapp2.1\SocketTest.dll
+E:\Study\vs\Rest\StreamCloud\SocketTest\bin\Debug\netcoreapp2.1\SocketTest.pdb
+E:\Study\vs\Rest\StreamCloud\SocketTest\bin\Debug\netcoreapp2.1\NetHighSocket.dll
+E:\Study\vs\Rest\StreamCloud\SocketTest\bin\Debug\netcoreapp2.1\NetHighSocket.pdb
+E:\Study\vs\Rest\StreamCloud\SocketTest\obj\Debug\netcoreapp2.1\SocketTest.csproj.CopyComplete
+E:\Study\vs\Rest\StreamCloud\SocketTest\obj\Debug\netcoreapp2.1\SocketTest.dll
+E:\Study\vs\Rest\StreamCloud\SocketTest\obj\Debug\netcoreapp2.1\SocketTest.pdb
