@@ -109,3 +109,9 @@ E:\Study\vs\Rest\StreamCloud\ConsoleApp2\bin\Debug\System.Runtime.CompilerServic
 E:\Study\vs\Rest\StreamCloud\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CopyComplete
 E:\Study\vs\Rest\StreamCloud\ConsoleApp2\obj\Debug\ConsoleApp2.exe
 E:\Study\vs\Rest\StreamCloud\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
+E:\Study\vs\Rest\StreamCloud\ConsoleApp2\bin\Debug\CommonClass.dll
+E:\Study\vs\Rest\StreamCloud\ConsoleApp2\bin\Debug\NStreamCloudClient.dll
+E:\Study\vs\Rest\StreamCloud\ConsoleApp2\bin\Debug\CommonClass.pdb
+E:\Study\vs\Rest\StreamCloud\ConsoleApp2\bin\Debug\NStreamCloudClient.pdb
+E:\Study\vs\Rest\StreamCloud\ConsoleApp2\bin\Debug\SrvNetSocket.dll
+E:\Study\vs\Rest\StreamCloud\ConsoleApp2\bin\Debug\SrvNetSocket.pdb

@@ -4,6 +4,11 @@ using System.Text;
 
 namespace SrvNetSocket
 {
+
+   /// <summary>
+   /// 通信客户端
+   /// </summary>
+   /// <typeparam name="TData">传输，接收的数据类型，一般是byte[]</typeparam>
   public  interface ISocketClient<TData>
     {
         bool Connect();

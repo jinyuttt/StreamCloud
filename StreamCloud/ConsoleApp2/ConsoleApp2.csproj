@@ -127,9 +127,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ITest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TaskTest.cs" />
+    <Compile Include="TestCls.cs" />
     <Compile Include="TestResult.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -137,9 +139,17 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CommonClass\CommonClass.csproj">
+      <Project>{98544865-b35c-41ce-97fd-e77345ad6d86}</Project>
+      <Name>CommonClass</Name>
+    </ProjectReference>
     <ProjectReference Include="..\NetHighSocket\NetHighSocket.csproj">
       <Project>{793e1595-cea4-4b01-87bf-e58804bed833}</Project>
       <Name>NetHighSocket</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NStreamCloudClient\NStreamCloudClient.csproj">
+      <Project>{2c9a87eb-30f5-4111-b146-309c8fcad92b}</Project>
+      <Name>NStreamCloudClient</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

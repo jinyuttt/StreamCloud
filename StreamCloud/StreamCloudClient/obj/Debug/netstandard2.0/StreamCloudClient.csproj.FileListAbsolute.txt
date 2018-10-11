@@ -1,0 +1,13 @@
+E:\Study\vs\Rest\StreamCloud\StreamCloudClient\bin\Debug\netstandard2.0\StreamCloudClient.deps.json
+E:\Study\vs\Rest\StreamCloud\StreamCloudClient\bin\Debug\netstandard2.0\StreamCloudClient.dll
+E:\Study\vs\Rest\StreamCloud\StreamCloudClient\bin\Debug\netstandard2.0\StreamCloudClient.pdb
+E:\Study\vs\Rest\StreamCloud\StreamCloudClient\bin\Debug\netstandard2.0\System.Reflection.Emit.dll
+E:\Study\vs\Rest\StreamCloud\StreamCloudClient\bin\Debug\netstandard2.0\System.Reflection.Emit.ILGeneration.dll
+E:\Study\vs\Rest\StreamCloud\StreamCloudClient\bin\Debug\netstandard2.0\System.Reflection.Emit.xml
+E:\Study\vs\Rest\StreamCloud\StreamCloudClient\bin\Debug\netstandard2.0\System.Reflection.Emit.ILGeneration.xml
+E:\Study\vs\Rest\StreamCloud\StreamCloudClient\obj\Debug\netstandard2.0\StreamCloudClient.csproj.CoreCompileInputs.cache
+E:\Study\vs\Rest\StreamCloud\StreamCloudClient\obj\Debug\netstandard2.0\StreamCloudClient.AssemblyInfoInputs.cache
+E:\Study\vs\Rest\StreamCloud\StreamCloudClient\obj\Debug\netstandard2.0\StreamCloudClient.AssemblyInfo.cs
+E:\Study\vs\Rest\StreamCloud\StreamCloudClient\obj\Debug\netstandard2.0\StreamCloudClient.csproj.CopyComplete
+E:\Study\vs\Rest\StreamCloud\StreamCloudClient\obj\Debug\netstandard2.0\StreamCloudClient.dll
+E:\Study\vs\Rest\StreamCloud\StreamCloudClient\obj\Debug\netstandard2.0\StreamCloudClient.pdb

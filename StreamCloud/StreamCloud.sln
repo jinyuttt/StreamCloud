@@ -19,7 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpServerLib", "HttpServer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SrvNetSocket", "SrvNetSocket\SrvNetSocket.csproj", "{F23FE230-376B-4933-854F-09FFD2BA480F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketTest", "SocketTest\SocketTest.csproj", "{C0A0100E-17A9-47B0-98C0-1CDD6732CFFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocketTest", "SocketTest\SocketTest.csproj", "{C0A0100E-17A9-47B0-98C0-1CDD6732CFFF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamCloudClient", "StreamCloudClient\StreamCloudClient.csproj", "{BD323ED0-C468-42B7-868D-B138EE1AA5C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonClass", "CommonClass\CommonClass.csproj", "{98544865-B35C-41CE-97FD-E77345AD6D86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NStreamCloudClient", "NStreamCloudClient\NStreamCloudClient.csproj", "{2C9A87EB-30F5-4111-B146-309C8FCAD92B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +69,18 @@ Global
 		{C0A0100E-17A9-47B0-98C0-1CDD6732CFFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0A0100E-17A9-47B0-98C0-1CDD6732CFFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0A0100E-17A9-47B0-98C0-1CDD6732CFFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD323ED0-C468-42B7-868D-B138EE1AA5C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD323ED0-C468-42B7-868D-B138EE1AA5C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD323ED0-C468-42B7-868D-B138EE1AA5C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD323ED0-C468-42B7-868D-B138EE1AA5C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98544865-B35C-41CE-97FD-E77345AD6D86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98544865-B35C-41CE-97FD-E77345AD6D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98544865-B35C-41CE-97FD-E77345AD6D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98544865-B35C-41CE-97FD-E77345AD6D86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C9A87EB-30F5-4111-B146-309C8FCAD92B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C9A87EB-30F5-4111-B146-309C8FCAD92B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C9A87EB-30F5-4111-B146-309C8FCAD92B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C9A87EB-30F5-4111-B146-309C8FCAD92B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,14 @@
+E:\Study\vs\Rest\StreamCloud\CommonClass\bin\Debug\netstandard2.0\CommonClass.deps.json
+E:\Study\vs\Rest\StreamCloud\CommonClass\bin\Debug\netstandard2.0\CommonClass.dll
+E:\Study\vs\Rest\StreamCloud\CommonClass\bin\Debug\netstandard2.0\CommonClass.pdb
+E:\Study\vs\Rest\StreamCloud\CommonClass\obj\Debug\netstandard2.0\CommonClass.csproj.CoreCompileInputs.cache
+E:\Study\vs\Rest\StreamCloud\CommonClass\obj\Debug\netstandard2.0\CommonClass.AssemblyInfoInputs.cache
+E:\Study\vs\Rest\StreamCloud\CommonClass\obj\Debug\netstandard2.0\CommonClass.AssemblyInfo.cs
+E:\Study\vs\Rest\StreamCloud\CommonClass\obj\Debug\netstandard2.0\CommonClass.dll
+E:\Study\vs\Rest\StreamCloud\CommonClass\obj\Debug\netstandard2.0\CommonClass.pdb
+E:\Study\vs\Rest\StreamCloud\CommonClass\bin\Debug\netstandard2.0\NetHighSocket.dll
+E:\Study\vs\Rest\StreamCloud\CommonClass\bin\Debug\netstandard2.0\SrvNetSocket.dll
+E:\Study\vs\Rest\StreamCloud\CommonClass\bin\Debug\netstandard2.0\NetHighSocket.pdb
+E:\Study\vs\Rest\StreamCloud\CommonClass\bin\Debug\netstandard2.0\SrvNetSocket.pdb
+E:\Study\vs\Rest\StreamCloud\CommonClass\obj\Debug\netstandard2.0\CommonClass.csprojAssemblyReference.cache
+E:\Study\vs\Rest\StreamCloud\CommonClass\obj\Debug\netstandard2.0\CommonClass.csproj.CopyComplete

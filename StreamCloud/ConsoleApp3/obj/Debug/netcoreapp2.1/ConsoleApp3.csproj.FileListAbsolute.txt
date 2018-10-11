@@ -1,0 +1,16 @@
+E:\Study\vs\Rest\StreamCloud\ConsoleApp3\obj\Debug\netcoreapp2.1\ConsoleApp3.csprojAssemblyReference.cache
+E:\Study\vs\Rest\StreamCloud\ConsoleApp3\obj\Debug\netcoreapp2.1\ConsoleApp3.csproj.CoreCompileInputs.cache
+E:\Study\vs\Rest\StreamCloud\ConsoleApp3\obj\Debug\netcoreapp2.1\ConsoleApp3.AssemblyInfoInputs.cache
+E:\Study\vs\Rest\StreamCloud\ConsoleApp3\obj\Debug\netcoreapp2.1\ConsoleApp3.AssemblyInfo.cs
+E:\Study\vs\Rest\StreamCloud\ConsoleApp3\bin\Debug\netcoreapp2.1\ConsoleApp3.deps.json
+E:\Study\vs\Rest\StreamCloud\ConsoleApp3\bin\Debug\netcoreapp2.1\ConsoleApp3.runtimeconfig.json
+E:\Study\vs\Rest\StreamCloud\ConsoleApp3\bin\Debug\netcoreapp2.1\ConsoleApp3.runtimeconfig.dev.json
+E:\Study\vs\Rest\StreamCloud\ConsoleApp3\bin\Debug\netcoreapp2.1\ConsoleApp3.dll
+E:\Study\vs\Rest\StreamCloud\ConsoleApp3\bin\Debug\netcoreapp2.1\ConsoleApp3.pdb
+E:\Study\vs\Rest\StreamCloud\ConsoleApp3\bin\Debug\netcoreapp2.1\Client.dll
+E:\Study\vs\Rest\StreamCloud\ConsoleApp3\bin\Debug\netcoreapp2.1\Client.pdb
+E:\Study\vs\Rest\StreamCloud\ConsoleApp3\obj\Debug\netcoreapp2.1\ConsoleApp3.csproj.CopyComplete
+E:\Study\vs\Rest\StreamCloud\ConsoleApp3\obj\Debug\netcoreapp2.1\ConsoleApp3.dll
+E:\Study\vs\Rest\StreamCloud\ConsoleApp3\obj\Debug\netcoreapp2.1\ConsoleApp3.pdb
+E:\Study\vs\Rest\StreamCloud\ConsoleApp3\bin\Debug\netcoreapp2.1\CommonClass.dll
+E:\Study\vs\Rest\StreamCloud\ConsoleApp3\bin\Debug\netcoreapp2.1\CommonClass.pdb
