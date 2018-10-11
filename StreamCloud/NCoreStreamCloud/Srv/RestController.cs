@@ -4,6 +4,7 @@ using System.Text;
 using System.Threading;
 using System.IO;
 using System.Reflection;
+using CommonClass;
 
 namespace StreamCloud.Srv
 {

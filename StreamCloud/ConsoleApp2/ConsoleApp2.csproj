@@ -127,18 +127,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ITest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TaskTest.cs" />
-    <Compile Include="TestCls.cs" />
-    <Compile Include="TestResult.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ClsLibTest\ClsLibTest.csproj">
+      <Project>{f47fdef5-3e6f-4afd-9f91-cf722b2963d8}</Project>
+      <Name>ClsLibTest</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CommonClass\CommonClass.csproj">
       <Project>{98544865-b35c-41ce-97fd-e77345ad6d86}</Project>
       <Name>CommonClass</Name>

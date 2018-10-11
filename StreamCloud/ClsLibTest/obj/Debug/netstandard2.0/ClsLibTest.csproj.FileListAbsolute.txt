@@ -1,0 +1,16 @@
+E:\Study\vs\Rest\StreamCloud\ClsLibTest\bin\Debug\netstandard2.0\ClsLibTest.deps.json
+E:\Study\vs\Rest\StreamCloud\ClsLibTest\bin\Debug\netstandard2.0\ClsLibTest.dll
+E:\Study\vs\Rest\StreamCloud\ClsLibTest\bin\Debug\netstandard2.0\ClsLibTest.pdb
+E:\Study\vs\Rest\StreamCloud\ClsLibTest\bin\Debug\netstandard2.0\CommonClass.dll
+E:\Study\vs\Rest\StreamCloud\ClsLibTest\bin\Debug\netstandard2.0\NetHighSocket.dll
+E:\Study\vs\Rest\StreamCloud\ClsLibTest\bin\Debug\netstandard2.0\SrvNetSocket.dll
+E:\Study\vs\Rest\StreamCloud\ClsLibTest\bin\Debug\netstandard2.0\CommonClass.pdb
+E:\Study\vs\Rest\StreamCloud\ClsLibTest\bin\Debug\netstandard2.0\NetHighSocket.pdb
+E:\Study\vs\Rest\StreamCloud\ClsLibTest\bin\Debug\netstandard2.0\SrvNetSocket.pdb
+E:\Study\vs\Rest\StreamCloud\ClsLibTest\obj\Debug\netstandard2.0\ClsLibTest.csprojAssemblyReference.cache
+E:\Study\vs\Rest\StreamCloud\ClsLibTest\obj\Debug\netstandard2.0\ClsLibTest.csproj.CoreCompileInputs.cache
+E:\Study\vs\Rest\StreamCloud\ClsLibTest\obj\Debug\netstandard2.0\ClsLibTest.AssemblyInfoInputs.cache
+E:\Study\vs\Rest\StreamCloud\ClsLibTest\obj\Debug\netstandard2.0\ClsLibTest.AssemblyInfo.cs
+E:\Study\vs\Rest\StreamCloud\ClsLibTest\obj\Debug\netstandard2.0\ClsLibTest.csproj.CopyComplete
+E:\Study\vs\Rest\StreamCloud\ClsLibTest\obj\Debug\netstandard2.0\ClsLibTest.dll
+E:\Study\vs\Rest\StreamCloud\ClsLibTest\obj\Debug\netstandard2.0\ClsLibTest.pdb

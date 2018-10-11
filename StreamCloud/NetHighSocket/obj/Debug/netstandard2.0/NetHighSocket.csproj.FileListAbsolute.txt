@@ -1,8 +1,8 @@
-E:\Study\vs\Rest\StreamCloud\NetHighSocket\obj\Debug\netstandard2.0\NetHighSocket.csproj.CoreCompileInputs.cache
-E:\Study\vs\Rest\StreamCloud\NetHighSocket\obj\Debug\netstandard2.0\NetHighSocket.AssemblyInfoInputs.cache
-E:\Study\vs\Rest\StreamCloud\NetHighSocket\obj\Debug\netstandard2.0\NetHighSocket.AssemblyInfo.cs
 E:\Study\vs\Rest\StreamCloud\NetHighSocket\bin\Debug\netstandard2.0\NetHighSocket.deps.json
 E:\Study\vs\Rest\StreamCloud\NetHighSocket\bin\Debug\netstandard2.0\NetHighSocket.dll
 E:\Study\vs\Rest\StreamCloud\NetHighSocket\bin\Debug\netstandard2.0\NetHighSocket.pdb
+E:\Study\vs\Rest\StreamCloud\NetHighSocket\obj\Debug\netstandard2.0\NetHighSocket.csproj.CoreCompileInputs.cache
+E:\Study\vs\Rest\StreamCloud\NetHighSocket\obj\Debug\netstandard2.0\NetHighSocket.AssemblyInfoInputs.cache
+E:\Study\vs\Rest\StreamCloud\NetHighSocket\obj\Debug\netstandard2.0\NetHighSocket.AssemblyInfo.cs
 E:\Study\vs\Rest\StreamCloud\NetHighSocket\obj\Debug\netstandard2.0\NetHighSocket.dll
 E:\Study\vs\Rest\StreamCloud\NetHighSocket\obj\Debug\netstandard2.0\NetHighSocket.pdb

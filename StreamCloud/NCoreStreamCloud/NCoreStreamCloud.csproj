@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CommonClass\CommonClass.csproj" />
     <ProjectReference Include="..\HttpServerLib\HttpServerLib.csproj" />
     <ProjectReference Include="..\NetHighSocket\NetHighSocket.csproj" />
     <ProjectReference Include="..\SrvNetSocket\SrvNetSocket.csproj" />

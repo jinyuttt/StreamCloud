@@ -804,6 +804,21 @@
           "lib/netstandard1.0/System.ValueTuple.dll": {}
         }
       },
+      "CommonClass/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "MessagePack": "1.7.3.4",
+          "NetHighSocket": "1.0.0",
+          "SrvNetSocket": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CommonClass.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommonClass.dll": {}
+        }
+      },
       "HttpServerLib/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -3370,6 +3385,11 @@
         "system.valuetuple.nuspec"
       ]
     },
+    "CommonClass/1.0.0": {
+      "type": "project",
+      "path": "../CommonClass/CommonClass.csproj",
+      "msbuildProject": "../CommonClass/CommonClass.csproj"
+    },
     "HttpServerLib/1.0.0": {
       "type": "project",
       "path": "../HttpServerLib/HttpServerLib.csproj",
@@ -3388,6 +3408,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "CommonClass >= 1.0.0",
       "HttpServerLib >= 1.0.0",
       "MessagePack >= 1.7.3.4",
       "Microsoft.NETCore.App >= 2.1.0",
@@ -3425,6 +3446,9 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
+            "E:\\Study\\vs\\Rest\\StreamCloud\\CommonClass\\CommonClass.csproj": {
+              "projectPath": "E:\\Study\\vs\\Rest\\StreamCloud\\CommonClass\\CommonClass.csproj"
+            },
             "E:\\Study\\vs\\Rest\\StreamCloud\\HttpServerLib\\HttpServerLib.csproj": {
               "projectPath": "E:\\Study\\vs\\Rest\\StreamCloud\\HttpServerLib\\HttpServerLib.csproj"
             },
