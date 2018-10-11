@@ -1,10 +1,11 @@
-StreamCloud ����restfull �ҵĲ��Ļ����ʹ�õ��Ķ�����
+StreamCloud 仿造restfull 我的博文会介绍使用到的东西。
 
-1.֧�ֿͻ���Զ�̵���RPCģ�ͣ���Ҫ�ǵײ����������伴��
-   ���ݸ�ʽ���ҵ��������ƣ����񷽷���������
-2.֧��HTTP�������ƣ�http://127.0.0.1:7777/SrvName/Method?Name=kk������JSON
+1.支持客户端远程调用RPC模型，主要是底层打包参数传输即可
+   根据格式，找到服务名称，服务方法，参数；
+2.支持HTTP请求，类似：http://127.0.0.1:7777/SrvName/Method?Name=kk，返回JSON
 
-3.��װ�������NetHighSocket��ԭ������ʹ��dotnetty,����û�в��Գɹ�������ԭ����࣬�ҷ�װ��ֻ��û����ô���ӡ�
- ��˵��������������Լ����ƹ����߳���������������ݽ��ա��ͻ��˽���ֱ�Ӳ���.NET��SocketAsyncEventArgs,ʹ���첽ģ�ͼ���
+3.封装传输组件NetHighSocket，原本打算使用dotnetty,但是没有测试成功，基本原理差不多，我封装的只是没有那么复杂。
+ 简单说，服务端启动，自己控制工作线程数据量，监测数据接收。客户端接收直接采用.NET的SocketAsyncEventArgs,使用异步模型即可
 
-4.���������ѵ�HTTP�⣬����HTTP�Ķ�������ʵ��Ҫ�������˼����࣬�����һ���ȫ�������������⣻
+4.采用了网友的HTTP库，解析HTTP的东西，其实主要就是用了几个类，但是我还是全部引用了整个库;
+5.MQ还没有实现，后期有时间会逐步完善。毕竟工作忙，还是要吃饭的。订阅发布模式也是基于MQ的，所以.......
