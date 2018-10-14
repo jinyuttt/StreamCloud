@@ -1,4 +1,6 @@
-﻿using SrvNetSocket;
+﻿using CacheBuffer;
+using LoadBalance;
+using SrvNetSocket;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -19,74 +21,38 @@ namespace CommonClass
     /// 最后修改者  ：jinyu
     /// 最后修改日期：2018/10/11 20:58:38 
     /// </summary>
-   internal class SocketPool<T>
+   internal class SocketPool<T> : BufferPool<ISocketClient<T>>
     {
-        private Stack<ISocketClient<T>> buffer=new Stack<ISocketClient<T>>(100);
-        private object lock_obj = new object();
 
+        private HashRingNode hashSrv = new HashRingNode();
+        private List<string> lstSrv = null;
+
+        public string NetName { get; set; }
         /// <summary>
         /// 服务器地址
         /// 格式：host:port
         /// </summary>
         private  List<string>  ServerList
         {
-            get;set;
+            get { return lstSrv; }
+            set { lstSrv = value; hashSrv.AddNode(lstSrv.ToArray()); }
         }
-
-        /// <summary>
-        /// 初始化缓存对象
-        /// </summary>
-        /// <param name="initNum"></param>
-        public void InitPool(int initNum=10)
+        public override BaseBuffer<ISocketClient<T>> Create()
         {
-            if(initNum>0)
+            SocketBuffer<T> buffer = new SocketBuffer<T>();
+            ISocketClient<T> client = NetFactory.CreateSocketClient<T>(this.NetName);
+            if(lstSrv != null)
             {
-                for(int i=0;i<initNum;i++)
+                string srv= hashSrv.GetCurrent();
+                string[] srvAddrs = srv.Split(':');
+                if(srvAddrs.Length==2)
                 {
-                    buffer.Push(Create());
+                    client.Connect(srvAddrs[0], int.Parse(srvAddrs[1]));
                 }
             }
+            buffer.Data = client;
+            return buffer;
         }
 
-
-        /// <summary>
-        /// 创建通信对象
-        /// </summary>
-        /// <returns></returns>
-        private ISocketClient<T> Create()
-        {
-            return null;
-        }
-
-        /// <summary>
-        /// 获取通信对象
-        /// </summary>
-        /// <returns></returns>
-        public ISocketClient<T> GetSocket()
-        {
-            lock (lock_obj)
-            {
-                try
-                {
-                    return buffer.Pop();
-                }
-                catch
-                {
-                    return Create();
-                }
-            }
-        }
-
-       /// <summary>
-       /// 通信对象释放
-       /// </summary>
-       /// <param name="client"></param>
-        public void Free(ISocketClient<T> client)
-        {
-            lock(lock_obj)
-            {
-                buffer.Push(client);
-            }
-        }
     }
 }

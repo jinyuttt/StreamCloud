@@ -42,9 +42,10 @@ namespace CommonClass
             CancellationTokenRegistration registration = cts.Token.Register(() => { Console.WriteLine("超时"); });
             Task<byte[]> result = Task.Factory.StartNew<byte[]>(() =>
             {
-                var client = pool.GetSocket();
-                client.SendData(req);
-                return client.GetNetSocket().recData;
+                //var client = pool.GetSocket();
+                //client.SendData(req);
+                //return client.GetNetSocket().recData;
+                return null;
             });
             byte[] rec = result.Result;
             result.Dispose();
@@ -65,9 +66,10 @@ namespace CommonClass
             CancellationTokenRegistration registration = cts.Token.Register(() => { Console.WriteLine("超时"); });
             Task<QuestResult> result = Task.Factory.StartNew<QuestResult>(() =>
             {
-                var client = poolResult.GetSocket();
-                    client.SendData(srvRquest);
-                return client.GetNetSocket().recData;
+                //var client = poolResult.GetSocket();
+                //    client.SendData(srvRquest);
+                //return client.GetNetSocket().recData;
+                return null;
             });
             QuestResult rec = result.Result;
             result.Dispose();

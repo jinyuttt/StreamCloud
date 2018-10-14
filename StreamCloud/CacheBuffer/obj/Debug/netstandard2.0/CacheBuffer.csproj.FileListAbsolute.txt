@@ -1,0 +1,8 @@
+E:\Study\vs\Rest\StreamCloud\CacheBuffer\obj\Debug\netstandard2.0\CacheBuffer.csproj.CoreCompileInputs.cache
+E:\Study\vs\Rest\StreamCloud\CacheBuffer\obj\Debug\netstandard2.0\CacheBuffer.AssemblyInfoInputs.cache
+E:\Study\vs\Rest\StreamCloud\CacheBuffer\obj\Debug\netstandard2.0\CacheBuffer.AssemblyInfo.cs
+E:\Study\vs\Rest\StreamCloud\CacheBuffer\bin\Debug\netstandard2.0\CacheBuffer.deps.json
+E:\Study\vs\Rest\StreamCloud\CacheBuffer\bin\Debug\netstandard2.0\CacheBuffer.dll
+E:\Study\vs\Rest\StreamCloud\CacheBuffer\bin\Debug\netstandard2.0\CacheBuffer.pdb
+E:\Study\vs\Rest\StreamCloud\CacheBuffer\obj\Debug\netstandard2.0\CacheBuffer.dll
+E:\Study\vs\Rest\StreamCloud\CacheBuffer\obj\Debug\netstandard2.0\CacheBuffer.pdb

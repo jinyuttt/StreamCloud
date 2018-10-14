@@ -9,6 +9,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CacheBuffer\CacheBuffer.csproj" />
+    <ProjectReference Include="..\LoadBalance\LoadBalance.csproj" />
     <ProjectReference Include="..\NetHighSocket\NetHighSocket.csproj" />
     <ProjectReference Include="..\SrvNetSocket\SrvNetSocket.csproj" />
   </ItemGroup>

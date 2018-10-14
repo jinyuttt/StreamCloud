@@ -466,14 +466,26 @@
           }
         }
       },
+      "CacheBuffer/1.0.0": {
+        "runtime": {
+          "CacheBuffer.dll": {}
+        }
+      },
       "CommonClass/1.0.0": {
         "dependencies": {
+          "CacheBuffer": "1.0.0",
+          "LoadBalance": "1.0.0",
           "MessagePack": "1.7.3.4",
           "NetHighSocket": "1.0.0",
           "SrvNetSocket": "1.0.0"
         },
         "runtime": {
           "CommonClass.dll": {}
+        }
+      },
+      "LoadBalance/1.0.0": {
+        "runtime": {
+          "LoadBalance.dll": {}
         }
       },
       "NetHighSocket/1.0.0": {
@@ -784,7 +796,17 @@
       "path": "system.valuetuple/4.3.0",
       "hashPath": "system.valuetuple.4.3.0.nupkg.sha512"
     },
+    "CacheBuffer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "CommonClass/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LoadBalance/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -6,3 +6,4 @@ E:\Study\vs\Rest\StreamCloud\NetHighSocket\obj\Debug\netstandard2.0\NetHighSocke
 E:\Study\vs\Rest\StreamCloud\NetHighSocket\obj\Debug\netstandard2.0\NetHighSocket.AssemblyInfo.cs
 E:\Study\vs\Rest\StreamCloud\NetHighSocket\obj\Debug\netstandard2.0\NetHighSocket.dll
 E:\Study\vs\Rest\StreamCloud\NetHighSocket\obj\Debug\netstandard2.0\NetHighSocket.pdb
+E:\Study\vs\Rest\StreamCloud\NetHighSocket\obj\Debug\netstandard2.0\NetHighSocket.csprojAssemblyReference.cache

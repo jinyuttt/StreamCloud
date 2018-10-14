@@ -18,3 +18,7 @@ E:\Study\vs\Rest\StreamCloud\NCoreStreamCloud\obj\Debug\netcoreapp2.1\NCoreStrea
 E:\Study\vs\Rest\StreamCloud\NCoreStreamCloud\obj\Debug\netcoreapp2.1\NCoreStreamCloud.csproj.CopyComplete
 E:\Study\vs\Rest\StreamCloud\NCoreStreamCloud\obj\Debug\netcoreapp2.1\NCoreStreamCloud.dll
 E:\Study\vs\Rest\StreamCloud\NCoreStreamCloud\obj\Debug\netcoreapp2.1\NCoreStreamCloud.pdb
+E:\Study\vs\Rest\StreamCloud\NCoreStreamCloud\bin\Debug\netcoreapp2.1\CacheBuffer.dll
+E:\Study\vs\Rest\StreamCloud\NCoreStreamCloud\bin\Debug\netcoreapp2.1\LoadBalance.dll
+E:\Study\vs\Rest\StreamCloud\NCoreStreamCloud\bin\Debug\netcoreapp2.1\CacheBuffer.pdb
+E:\Study\vs\Rest\StreamCloud\NCoreStreamCloud\bin\Debug\netcoreapp2.1\LoadBalance.pdb

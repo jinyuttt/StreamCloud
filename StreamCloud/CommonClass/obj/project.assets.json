@@ -603,6 +603,26 @@
           "lib/netstandard1.0/System.ValueTuple.dll": {}
         }
       },
+      "CacheBuffer/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/CacheBuffer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CacheBuffer.dll": {}
+        }
+      },
+      "LoadBalance/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/LoadBalance.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LoadBalance.dll": {}
+        }
+      },
       "NetHighSocket/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -2773,6 +2793,16 @@
         "system.valuetuple.nuspec"
       ]
     },
+    "CacheBuffer/1.0.0": {
+      "type": "project",
+      "path": "../CacheBuffer/CacheBuffer.csproj",
+      "msbuildProject": "../CacheBuffer/CacheBuffer.csproj"
+    },
+    "LoadBalance/1.0.0": {
+      "type": "project",
+      "path": "../LoadBalance/LoadBalance.csproj",
+      "msbuildProject": "../LoadBalance/LoadBalance.csproj"
+    },
     "NetHighSocket/1.0.0": {
       "type": "project",
       "path": "../NetHighSocket/NetHighSocket.csproj",
@@ -2786,6 +2816,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "CacheBuffer >= 1.0.0",
+      "LoadBalance >= 1.0.0",
       "MessagePack >= 1.7.3.4",
       "NETStandard.Library >= 2.0.3",
       "NetHighSocket >= 1.0.0",
@@ -2822,6 +2854,12 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
+            "E:\\Study\\vs\\Rest\\StreamCloud\\CacheBuffer\\CacheBuffer.csproj": {
+              "projectPath": "E:\\Study\\vs\\Rest\\StreamCloud\\CacheBuffer\\CacheBuffer.csproj"
+            },
+            "E:\\Study\\vs\\Rest\\StreamCloud\\LoadBalance\\LoadBalance.csproj": {
+              "projectPath": "E:\\Study\\vs\\Rest\\StreamCloud\\LoadBalance\\LoadBalance.csproj"
+            },
             "E:\\Study\\vs\\Rest\\StreamCloud\\NetHighSocket\\NetHighSocket.csproj": {
               "projectPath": "E:\\Study\\vs\\Rest\\StreamCloud\\NetHighSocket\\NetHighSocket.csproj"
             },

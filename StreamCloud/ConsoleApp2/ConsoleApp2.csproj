@@ -135,6 +135,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CacheBuffer\CacheBuffer.csproj">
+      <Project>{c11631d9-1020-4d5e-a417-0cb102f6f3ee}</Project>
+      <Name>CacheBuffer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ClsLibTest\ClsLibTest.csproj">
       <Project>{f47fdef5-3e6f-4afd-9f91-cf722b2963d8}</Project>
       <Name>ClsLibTest</Name>
@@ -146,10 +150,6 @@
     <ProjectReference Include="..\NetHighSocket\NetHighSocket.csproj">
       <Project>{793e1595-cea4-4b01-87bf-e58804bed833}</Project>
       <Name>NetHighSocket</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\NStreamCloudClient\NStreamCloudClient.csproj">
-      <Project>{2c9a87eb-30f5-4111-b146-309c8fcad92b}</Project>
-      <Name>NStreamCloudClient</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

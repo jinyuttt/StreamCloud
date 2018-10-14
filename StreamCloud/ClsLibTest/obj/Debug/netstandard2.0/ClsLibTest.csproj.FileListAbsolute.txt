@@ -14,3 +14,7 @@ E:\Study\vs\Rest\StreamCloud\ClsLibTest\obj\Debug\netstandard2.0\ClsLibTest.Asse
 E:\Study\vs\Rest\StreamCloud\ClsLibTest\obj\Debug\netstandard2.0\ClsLibTest.csproj.CopyComplete
 E:\Study\vs\Rest\StreamCloud\ClsLibTest\obj\Debug\netstandard2.0\ClsLibTest.dll
 E:\Study\vs\Rest\StreamCloud\ClsLibTest\obj\Debug\netstandard2.0\ClsLibTest.pdb
+E:\Study\vs\Rest\StreamCloud\ClsLibTest\bin\Debug\netstandard2.0\CacheBuffer.dll
+E:\Study\vs\Rest\StreamCloud\ClsLibTest\bin\Debug\netstandard2.0\LoadBalance.dll
+E:\Study\vs\Rest\StreamCloud\ClsLibTest\bin\Debug\netstandard2.0\CacheBuffer.pdb
+E:\Study\vs\Rest\StreamCloud\ClsLibTest\bin\Debug\netstandard2.0\LoadBalance.pdb
