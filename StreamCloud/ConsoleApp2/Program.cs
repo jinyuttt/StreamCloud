@@ -12,7 +12,7 @@ namespace ConsoleApp2
             // ITestCls test= RemoteProxyFactory.CreateClassProxy<ITestCls>("MYTESTCls", "ClsLibTest.dll");
               LRUCache<int, int> cache = new LRUCache<int, int>();
               cache.RemoveEntitiesEvent += Cache_RemoveEntitiesEvent;
-              cache.CacheTime =3;
+              cache.CacheTime =3;//启动缓存时间
              Random random = new Random();
              DateTime start= DateTime.Now;
             for(int i=0;i<10000000;i++)

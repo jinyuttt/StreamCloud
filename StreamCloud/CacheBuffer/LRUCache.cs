@@ -34,14 +34,14 @@ namespace CacheBuffer
     {
        const  int DEFAULT_CAPACITY = int.MaxValue;
 
-        private int _capacity;
-        private  ReaderWriterLockSlim locker;
+        private int _capacity;//容量
+        private  ReaderWriterLockSlim locker;//锁
         private  IDictionary<TKey, TValue> dictionary;//数据
         private LinkedList<TKey> linkedList;//控制Key的数据
         private Dictionary<TKey, LinkedListNode<TKey>> dicLinkIndex = null;//控制删除
         private Dictionary<TKey, long> dicRefresh = null;//使用时间
         private volatile bool isCheckTime = false;//设置是否监测缓存的时间长度
-        private  long cacheTime = 600;//10分钟
+        private long cacheTime = 600;//10分钟
         private volatile bool isCheckThread = false;//检查线程启动
         private long checkTicks = 0;//换算后的时间
         private BlockingCollection<RemoveEntity<TKey, TValue>> removeEntities = null;
@@ -56,7 +56,7 @@ namespace CacheBuffer
         public long CacheTime { get { return cacheTime; } set { cacheTime = value;isCheckTime = true; countTime(); } }
 
         /// <summary>
-        /// 是否监测时间
+        /// 是否监测缓存时间
         /// </summary>
         public bool IsCacheCheckTime { get { return isCheckTime; } set { isCheckTime = value; countTime(); } }
 
@@ -76,7 +76,6 @@ namespace CacheBuffer
             dicLinkIndex = new Dictionary<TKey, LinkedListNode<TKey>>();
             dicRefresh = new Dictionary<TKey, long>();
             removeEntities = new BlockingCollection<RemoveEntity<TKey, TValue>>(1000);
-           
             countTime();
             RemoveNotice();
         }
@@ -87,11 +86,8 @@ namespace CacheBuffer
         /// </summary>
         private void countTime()
         {
-           
             checkTicks = 10000000 * cacheTime;
         }
-
-       
 
         /// <summary>
         /// 更新时间
@@ -109,7 +105,7 @@ namespace CacheBuffer
                 isCheckThread = true;
                 Task.Factory.StartNew(() =>
                 {
-                    //100个分批处理
+                 
                     double wait = (DateTime.Now - checkTime).TotalSeconds;
                     if(wait<cacheTime)
                     {
@@ -153,6 +149,9 @@ namespace CacheBuffer
             }
         }
 
+        /// <summary>
+        /// 启动移除通知
+        /// </summary>
         private void RemoveNotice()
         {
             Task.Factory.StartNew(() =>
@@ -172,6 +171,11 @@ namespace CacheBuffer
             });
         }
 
+        /// <summary>
+        /// 保存数据
+        /// </summary>
+        /// <param name="key"></param>
+        /// <param name="value"></param>
         public void Set(TKey key, TValue value)
         {
             locker.EnterWriteLock();
@@ -201,6 +205,12 @@ namespace CacheBuffer
           
         }
 
+        /// <summary>
+        /// 获取数据
+        /// </summary>
+        /// <param name="key"></param>
+        /// <param name="value"></param>
+        /// <returns></returns>
         public bool TryGet(TKey key, out TValue value)
         {
             locker.EnterUpgradeableReadLock();
@@ -224,6 +234,10 @@ namespace CacheBuffer
             catch { throw; }
             finally { locker.ExitUpgradeableReadLock(); }
         }
+
+        /// <summary>
+        /// 清空数据
+        /// </summary>
         public void Clear()
         {
             locker.EnterWriteLock();
@@ -240,6 +254,12 @@ namespace CacheBuffer
                 locker.ExitWriteLock();
             }
         }
+
+        /// <summary>
+        /// 清空数据
+        /// </summary>
+        /// <param name="key"></param>
+        /// <returns></returns>
         public bool Remove(TKey key)
         {
             bool isSucess = false;
@@ -260,6 +280,12 @@ namespace CacheBuffer
             }
             return isSucess;
         }
+
+        /// <summary>
+        /// 是否存在Key
+        /// </summary>
+        /// <param name="key"></param>
+        /// <returns></returns>
         public bool ContainsKey(TKey key)
         {
             locker.EnterReadLock();
@@ -270,6 +296,9 @@ namespace CacheBuffer
             finally { locker.ExitReadLock(); }
         }
 
+        /// <summary>
+        /// 数据量
+        /// </summary>
         public int Count
         {
             get
@@ -283,6 +312,9 @@ namespace CacheBuffer
             }
         }
 
+        /// <summary>
+        /// 容积
+        /// </summary>
         public int Capacity
         {
             get
@@ -317,6 +349,9 @@ namespace CacheBuffer
             }
         }
 
+        /// <summary>
+        /// 所欲keys
+        /// </summary>
         public ICollection<TKey> Keys
         {
             get
@@ -329,6 +364,10 @@ namespace CacheBuffer
                 finally { locker.ExitReadLock(); }
             }
         }
+
+        /// <summary>
+        /// 所有值
+        /// </summary>
 
         public ICollection<TValue> Values
         {
