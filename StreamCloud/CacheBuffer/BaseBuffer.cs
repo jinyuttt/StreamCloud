@@ -20,7 +20,7 @@ namespace CacheBuffer
     /// </summary>
    public class BaseBuffer<T>
     {
-
+        private DateTime useTime = DateTime.Now;
         /// <summary>
         /// 真实数据对象
         /// </summary>
@@ -29,7 +29,7 @@ namespace CacheBuffer
         /// <summary>
         /// 使用的时间
         /// </summary>
-        public DateTime DateTime { get; set; }
+        public DateTime DateTime { get { return useTime; } set { useTime = value; } }
 
         //缓存丢失清理数据
         public virtual void Dispose()
